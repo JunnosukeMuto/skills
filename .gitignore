@@ -1,0 +1,27 @@
+# claude.ai から自動同期される Anthropic 製スキル（自動で上書きされるため管理対象外）
+/synced/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# スキル実行時の一時ファイル・出力
+*.log
+*.tmp
+tmp/
+.env
+.env.*
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
