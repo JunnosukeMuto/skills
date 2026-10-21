@@ -1,0 +1,25 @@
+body{margin:0;background:#fff;font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif}
+svg text{font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif}
+/* システムの枠 */
+.panel{fill:#f7f8fa;stroke:#d0d5dd;stroke-width:1.5}
+.ptitle{font-size:22px;font-weight:700;fill:#1f2937}
+.psub{font-size:14px;fill:#6b7280}
+/* 箱。種類は box(...) の cls 引数で切り替える */
+.box{fill:#fff;stroke:#9aa4b2;stroke-width:1.5}
+.box.new{fill:#ecfdf3;stroke:#12b76a;stroke-width:2.5}
+.box.warn{fill:#fff4ed;stroke:#f97316;stroke-width:2.5}
+.box.ext{fill:#eef4ff;stroke:#6172f3;stroke-width:2}
+.db{fill:#fff;stroke:#9aa4b2;stroke-width:1.5}
+.bt{font-size:18px;font-weight:700;fill:#111827}
+.bs{font-size:13.5px;fill:#4b5563}
+/* 矢印。種類は arrow(...) の cls 引数で切り替える */
+.a{fill:none;stroke:#98a2b3;stroke-width:2}
+.a.cross{stroke:#f04438;stroke-width:2.5}
+.a.good{stroke:#12b76a;stroke-width:2.5}
+.a.dash{stroke-dasharray:7 5}
+/* ラベルは白い縁取りで線の上でも読めるようにする */
+.lbl{font-size:13.5px;fill:#374151;paint-order:stroke;stroke:#fff;stroke-width:5px;stroke-linejoin:round}
+.lbl.cross{fill:#b42318;font-weight:700}
+.lbl.good{fill:#027a48;font-weight:700}
+.badge{font-size:12px;font-weight:700}
+.legend{font-size:14px;fill:#374151}
